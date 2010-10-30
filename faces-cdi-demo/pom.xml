@@ -2,14 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>be.verborgh</groupId>
+        <groupId>com.github.bleathem.jsf-cdi</groupId>
         <artifactId>jsf-cdi</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <groupId>be.verborgh</groupId>
     <artifactId>faces-cdi-demo</artifactId>
     <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>faces-cdi-demo Java EE 6 Webapp</name>
     <dependencies>
         <dependency>
