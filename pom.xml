@@ -89,6 +89,26 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <!-- Need to setup a website
+	<site>
+            <id>website</id>
+            <url>file:///var/www/html/${project.artifactId}</url>
+        </site>
+	 -->
+         <repository>
+           <id>releases</id>
+           <name>Releases</name>
+           <url>http://${mis.repo}/nexus/content/repositories/releases</url>
+         </repository>
+         <snapshotRepository>
+           <id>snapshots</id>
+           <name>Snapshots</name>
+           <url>http://${mis.repo}/nexus/content/repositories/snapshots</url>
+	   <uniqueVersion>false</uniqueVersion>
+         </snapshotRepository>
+    </distributionManagement>
+
     <scm>
         <connection>scm:git:git://github.com/bleathem/jsf-cdi.git </connection>
         <developerConnection>scm:git:git@github.com:bleathem/jsf-cdi.git </developerConnection>
