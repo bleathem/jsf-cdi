@@ -3,7 +3,7 @@
     <groupId>com.github.bleathem.jsf-cdi</groupId>
     <artifactId>jsf-cdi</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>jsf-cdi</name>
     <modules>
         <module>faces-cdi</module>

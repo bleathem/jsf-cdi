@@ -3,11 +3,11 @@
     <parent>
         <groupId>com.github.bleathem.jsf-cdi</groupId>
         <artifactId>jsf-cdi</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>faces-cdi-demo</artifactId>
     <packaging>war</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>faces-cdi-demo Java EE 6 Webapp</name>
     <dependencies>
         <dependency>
